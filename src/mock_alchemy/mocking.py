@@ -462,6 +462,7 @@ class UnifiedAlchemyMagicMock(AlchemyMagicMock):
         "order_by": None,
         "limit": None,
         "distinct": None,
+        "with_for_update": None,
     }
 
     mutate: Set[str] = {"add", "add_all", "delete"}
