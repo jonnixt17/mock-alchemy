@@ -461,6 +461,7 @@ class UnifiedAlchemyMagicMock(AlchemyMagicMock):
         "filter_by": UnorderedCall,
         "order_by": None,
         "limit": None,
+        "offset": None,
         "distinct": None,
         "with_for_update": None,
     }
